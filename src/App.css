@@ -1,0 +1,35 @@
+table{
+  color: white;
+  width:  1,580px;
+  height: 37px;
+  padding: 10px 12px 10px 12px;
+  gap: 0px;
+  border-radius: 10px 10px 10px 10px;
+  opacity: 0px;
+  background: #1A2038;
+  margin-top: 200px;
+  margin-left: 500px;
+}
+table tr{
+  display: flex;
+  gap: 50px;
+  padding: 10px;
+}
+.tab{
+  color: white;
+  width:  1,080px;
+  height: 37px;
+  padding: 10px 12px 10px 12px;
+  gap: 0px;
+  border-radius: 10px 10px 10px 10px;
+  opacity: 0px;
+  background: #1A2038;
+  margin-top: 50px;
+  margin-left: 250px;
+}
+.tab tr{
+  margin-top: 5px;
+}
+.td{
+  margin-top: 10px;
+}
