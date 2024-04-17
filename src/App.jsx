@@ -1,69 +1,21 @@
-import img1 from '../src/img/USER.png'
-import btn from '../src/img/btn.png'
-import User from '../src/img/img2.png'
-import './App.css'
+import React from "react";
+import logo from "./assets/logo.svg";
+import Table from "./components/Table";
+import Items from "./components/Items";
 
 function App() {
-
   return (
-    <>
-    <table>
-      <tr>
-        <td>Brend</td>
-        <td>Category</td>
-        <td>Price</td>
-        <td>Status</td>
-        <td>Action</td>
-      </tr>
-    </table>
-      
-      <table className='tab'>
-        <tr>
-          <td><img src={img1} alt="" /></td>
-          <td className='td'>Technology</td>
-          <td className='td'>200.00$</td>
-          <td className='td'><button>Available</button></td>
-          <td className='td'><img src={btn} alt="" /></td>
-        </tr>
-      </table>
-      <table className='tab'>
-        <tr>
-          <td><img src={img1} alt="" /></td>
-          <td className='td'>Technology</td>
-          <td className='td'>200.00$</td>
-          <td className='td'><button>Available</button></td>
-          <td className='td'><img src={btn} alt="" /></td>
-        </tr>
-      </table>
-      <table className='tab'>
-        <tr>
-          <td><img src={User} alt="" /></td>
-          <td className='td'>Technology</td>
-          <td className='td'>200.00$</td>
-          <td className='td'><button>Available</button></td>
-          <td className='td'><img src={btn} alt="" /></td>
-        </tr>
-      </table>
-      <table className='tab'>
-        <tr>
-          <td><img src={img1} alt="" /></td>
-          <td className='td'>Technology</td>
-          <td className='td'>200.00$</td>
-          <td className='td'><button>Available</button></td>
-          <td className='td'><img src={btn} alt="" /></td>
-        </tr>
-      </table>
-      <table className='tab'>
-        <tr>
-          <td><img src={img1} alt="" /></td>
-          <td className='td'>Technology</td>
-          <td className='td'>200.00$</td>
-          <td className='td'><button>Available</button></td>
-          <td className='td'><img src={btn} alt="" /></td>
-        </tr>
-      </table>
-    </>
-  )
+   <div className="bg-[#141b2d] pb-2">
+    <div className="w-full pt-2 flex items-center justify-center mb-[15px]">
+      <span  className="ml-[550px]">
+        <img src={logo} alt="logo" />
+      </span>
+    </div>
+    <Table></Table>
+    <Items></Items>
+  
+   </div>
+  );
 }
 
-export default App
+export default App;
